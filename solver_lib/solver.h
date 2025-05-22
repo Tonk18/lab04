@@ -1,11 +1,3 @@
-#ifndef SOLVER_H
-#define SOLVER_H
+#pragma once
 
-#include <string>
-#include <formatter_ex.h>
-
-namespace solver {
-    std::string solve(const std::string& equation);
-}
-
-#endif
+void solve(float a, float b, float c, float& x1, float& x2);
