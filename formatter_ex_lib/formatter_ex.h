@@ -1,11 +1,6 @@
-#ifndef FORMATTER_EX_H
-#define FORMATTER_EX_H
+#pragma once
 
 #include <string>
-#include <formatter.h>
+#include <iostream>
 
-namespace formatter_ex {
-    std::string format_ex(const std::string& message);
-}
-
-#endif
+std::ostream& formatter(std::ostream& out, const std::string& message);
