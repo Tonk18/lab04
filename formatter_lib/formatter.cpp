@@ -1,7 +1,10 @@
 #include "formatter.h"
 
-namespace formatter {
-    std::string format(const std::string& message) {
-        return "Formatted: " + message;
-    }
+std::string formatter(const std::string& message)
+{
+    std::string res;
+    res += "-------------------------\n";
+    res += message + "\n";
+    res += "-------------------------\n";
+    return res;
 }
