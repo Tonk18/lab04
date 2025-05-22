@@ -1,9 +1,1 @@
-build/
-*.a
-*.exe
-*.user
-*.vcxproj*
-*.sln
-*.filters
-*.log
 
