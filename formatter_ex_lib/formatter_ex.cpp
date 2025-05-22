@@ -1,7 +1,7 @@
 #include "formatter_ex.h"
+#include "formatter.h"
 
-namespace formatter_ex {
-    std::string format_ex(const std::string& message) {
-        return "[" + formatter::format(message) + "]";
-    }
+std::ostream& formatter(std::ostream& out, const std::string& message)
+{
+    return out << formatter(message);
 }
