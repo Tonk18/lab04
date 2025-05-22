@@ -1,7 +1,8 @@
-#include <formatter_ex.h>
 #include <iostream>
 
-int main() {
-    std::cout << formatter_ex::format_ex("Hello, World!") << std::endl;
-    return 0;
+#include "../formatter_ex_lib/formatter_ex.h"
+
+int main()
+{
+    formatter(std::cout, "hello, world!");
 }
