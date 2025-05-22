@@ -1,10 +1,5 @@
-#ifndef FORMATTER_H
-#define FORMATTER_H
+#pragma once
 
 #include <string>
 
-namespace formatter {
-    std::string format(const std::string& message);
-}
-
-#endif
+std::string formatter(const std::string& message);
